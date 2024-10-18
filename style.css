@@ -1,0 +1,50 @@
+/* General body styles for background and centering */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f5a623, #f56c42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+}
+
+#inputDate {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #f56c42;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #f56c42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #f5a623;
+}
+
+
+
